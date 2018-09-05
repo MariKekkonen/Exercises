@@ -1,4 +1,6 @@
-# -*- coding: cp1252 -*-
+#Pikkuinen suomenkielinen peli, joka on luotu osana Metropolian avoimen amk:n Python-ohjelmointi 3 op -kurssia 2018
+#Tekijä: Mari Kekkonen
+# -*- coding: UTF8 -*-
 
 import random
 
