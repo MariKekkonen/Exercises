@@ -32,7 +32,7 @@ except IOError:
     pickle.dump(sisalto,tiedosto)
     tiedosto.close()
 
-#tiedoston muisto.dat sisältö muuttujaan sisalto
+#tiedoston muistio.dat sisältö muuttujaan sisalto
 tiedosto = open("muistio.dat","rb")
 sisalto = pickle.load(tiedosto)
 tiedosto.close()
