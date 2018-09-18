@@ -1,4 +1,4 @@
-#Muistikirja, joka on luotu osana Metropolian avoimen amk:n Python-ohjelmointi 3 op -kurssin päättötyönä 2018
+#Muistikirja, joka on luotu Metropolian avoimen amk:n Python-ohjelmointi 3 op -kurssin päättötyönä 2018
 #Tekijä: Mari Kekkonen
 # -*- coding: UTF8 -*-
 import time
