@@ -55,7 +55,7 @@ while True:
         elif inp == 2: #lisää merkintä
             uusi_teksti = str(input("Kirjoita uusi merkintä: "))
             aika = time.strftime("%X %x")
-            lisays_listalle = uusi_teksti+":::"+aika#+"\n"
+            lisays_listalle = uusi_teksti+":::"+aika
             sisalto.append(lisays_listalle)
         elif inp == 3: #muokkaa merkintää
             lkm = lukumaara(sisalto)
@@ -66,8 +66,7 @@ while True:
             sisalto.pop(muutos_alkio)
             uusi_teksti = str(input("Anna uusi teksti: ")) #lisäys muistioon
             aika = time.strftime("%X %x")
-            lisays_listalle = uusi_teksti+":::"+aika#+"\n"
-            #muutos_alkio = muutos_alkio + 1
+            lisays_listalle = uusi_teksti+":::"+aika
             sisalto.insert(muutos_alkio,lisays_listalle)
         elif inp == 4: #poista merkintä
             lkm = lukumaara(sisalto)
